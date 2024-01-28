@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!--Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Form Design</title>
+  </head>
+  <body>
+    <div class="container-fluid bg-dark text-light py-1">
+    <header class="text-center">
+   <h1 class="display-6"><b>SMIT Registration Form</b></h1> 
+</header>
+
+</div>
+<SEction CLASS="container my-2 bg-dark w-50 text-light p-2">
+  <form class="row gx-3 gy-2 align-items-center">
+    <div class="col-sm-6">
+      <label class="Full Name" for="Full Name">Full Name</label>
+      <input type="text" class="form-control" id="specificSizeInputName" placeholder="Jane Doe">
+    </div>
+    <div class="col-sm-6">
+      <label class="Username" for="Username">Username</label>
+      <div class="input-group">
+        <div class="input-group-text">@</div>
+        <input type="text" class="form-control" id="specificSizeInputGroupUsername" placeholder="Username">
+      </div>
+    </div>
+    <div class="col-sm-6">
+      <label class="Select Course" for="Select Course">Select Course</label>
+      <select class="form-select" id="specificSelect Course">
+        <option selected>Select Course</option>
+        <option value="1">Web Development</option>
+        <option value="2">Graphic Design</option>
+        <option value="3">CIT</option>
+        <option value="4">Amazon</option>
+        <option value="5">3d ANIMATION</option>
+        <option value="6">CIT</option>
+      </select>
+    </div>
+    <div class="col-sm-6">
+      <label class="Select City" for="Select City">Select City</label>
+      <select class="form-select" id="specificSelect City">
+        <option selected>Select City</option>
+        <option value="1">KARACHI</option>
+        <option value="2">ISLAMABAD</option>
+        <option value="3">LAHOUR</option>
+        <option value="4">QUETTA</option>
+        <option value="5">FAISALABAD</option>
+        <option value="6">PESHAWAR</option>
+      </select>
+    </div>
+    </div>
+      </form>
+  <form class="row g-3">
+    <div class="col-md-6">
+      <label for="inputEmail4" class="form-label">Email</label>
+      <input type="email" class="form-control" id="inputEmail4">
+    </div>
+    <div class="col-md-6">
+      <label for="inputPhone4" class="form-label">Phone</label>
+      <input type="Phone" class="form-control" id="inputPhone4">
+    </div>
+    <div class="col-md-6">
+      <label for="inputCNIC4" class="form-label">CNIC</label>
+      <input type="CNIC" class="form-control" id="inputCNIC4">
+    </div>
+    <div class="col-md-6">
+      <label for="inputFather's CNIC(optional)" class="form-label">Father's CNIC(optional)</label>
+      <input type="Father's CNIC(optional)" class="form-control" id="inputFather's CNIC(optional)4">
+    </div>
+    <div class="col-sm-6">
+        <label class="Select City" for="Select City">Last Qualification</label>
+        <select class="form-select" id="specificSelect City">
+          <option selected>Select City</option>
+          <option value="1">MATRIC</option>
+          <option value="2">INTER</option>
+          <option value="3">BA</option>
+           <option value="4">FA</option>
+       </select>
+      </div>
+      <div class="col-sm-6">
+        <label class="Select Do You Have A Laptop?" for="Select Do You Have A Laptop?">Do You Have A Laptop?</label>
+        <select class="form-select" id="specificSelect Do You Have A Laptop?">
+          <option selected>Do You Have A Laptop?</option>
+          <option value="1">YES</option>
+          <option value="2">NO</option>
+      </select>
+      </div>
+      <div class="col-sm-8">
+      Date Of Birth <br>
+      <select name="month">
+         <option value="Month">Month</option>
+         <option value="January">January</option>
+         <option value="February">February</option>
+        </select>
+        <select name="days">
+          <option value="Days">Days</option>
+          <option value="1"></option>
+          <option value="2"></option>
+         </select>
+         <select name="Year">
+          <option value="Year">Year</option>
+          <option value="Year">Year</option>
+          <option value="1988">1988</option>
+          <option value="1990">1990</option>
+         </select>
+        </div>
+        <div class="col-6">
+          <label for="inputAddress" class="form-label">Address</label>
+          <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+        </div>
+        <div class="col-6">
+      <label for="inputAddress2" class="form-label">Address 2</label>
+      <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+    </div>
+    <div class="col-12">
+      Gender Male:<input type="radio"name=mygender>
+      Female:<input type="radio"name=mygender>
+      Other:<input type="radio"name=mygender>
+   </div>
+   <div class="container">
+    <div class="img.area"></div>
+    <i class="bx bxs-cloud-upload"></i>
+    <h3>Upload Image</h3>
+    <p>Image size must be less than <span>2MB</span></p>
+       </div>
+       <button class="select-imge">Select Image</button>
+       <script src="script.js"></script>
+      </div>
+   <div>
+       <p>
+      1. I Hereby, Solemely declare that the data and fect mention herein are true and correct to the best of my knowledge furter,
+     I will abide by all the established and future reguiation and policies of SMIT.
+     <br>
+     2. I hereby accept the responsibility of good conduct and guarantee that i will not be involved in any other activity,political
+     or etchical,but learning during my saty the program.
+     <br>
+     3. Defiance will render my admission canceide at any point in time.
+     <br>
+     4. Open complition,of the course,I will complete the requrid project by SMIT.
+     <br>
+     5. It s mendatory for femele student wear abaya/hijab in the class.
+    </p>
+  </div>
+  <div class="col-6">
+  <div class="col-auto8">
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </div>
+  </form>
+</SEction>
+  </body>
+</html>
